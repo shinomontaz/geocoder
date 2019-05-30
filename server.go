@@ -3,11 +3,12 @@ package main
 import (
 	"context"
 	"fmt"
-	"geocoder/service/proxy"
 	"math/rand"
 	"net/http"
 	"sync"
 	"time"
+
+	"github.com/shinomontaz/geocoder/service/proxy"
 )
 
 type ILogger interface {

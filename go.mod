@@ -1,4 +1,4 @@
-module geocoder
+module github.com/shinomontaz/geocoder
 
 require (
 	github.com/gorilla/rpc v1.2.0

@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"geocoder/service/geocoder"
-	"geocoder/service/logger"
-	"geocoder/service/proxy"
+	"github.com/shinomontaz/geocoder/service/geocoder"
+	"github.com/shinomontaz/geocoder/service/logger"
+	"github.com/shinomontaz/geocoder/service/proxy"
 
 	"github.com/gorilla/rpc"
 	"github.com/gorilla/rpc/json"
